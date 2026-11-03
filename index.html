@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel & Lodging</title>
+    <link rel="stylesheet" href="stayl.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container ">
+            <div class="nav-container">
+                <a href="#" class="logo">
+                    <img src="./images/logo.png" class="logsize">
+                    <img src="./images/name.png" class="namesize">
+                </a>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#rooms">Rooms</a></li>
+                    <li><a href="#dining">Dining</a></li>
+                    <li><a href="#contacts" class="btn-nav">Book now</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header id="home" class="bk">
+        <div class="bk-overlay"></div>
+          <div class="bk-content">
+            <h1>Experience Luxury Like Never Before.</h1>
+            <p>Your Santuary in the heart of the city.</p>
+          </div>
+          <div class="booking-widget">
+            <form class="booking-form">
+                <div class="input-group">
+                    <label>Check-In</label>
+                    <input type="date">
+                </div>
+                <div class="input-group">
+                    <label>Check Out</label>
+                    <input type="date">
+                </div>
+                <div class="input-group">
+                    <label>Guests</label>
+                    <select>
+                        <option>Solo</option>
+                        <option>Bembang Mode</option>
+                        <option>2 Parents, 1 child</option>
+                        <option>Family</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn-primary">Check Availabilty</button>
+            </form>
+          </div>
+    </header>
+    <section class="about section-padding">
+        <div class="container about-grid">
+            <div class="about-text">
+                <h2>Welcome to TechNest</h2>
+                <p>Located near the ocean and at the same time, near the national road.</p>
+            </div>
+            <div class="about-image">
+                <img src="./images/map.png">
+            </div>
+        </div>
+    </section>
+    <section id="rooms" class="rooms section-padding bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Accomodations</h2>
+                <p>Design for compfort.</p>
+            </div>
+
+            <div class="room-grid">
+                <!--Room 1-->
+                <div class="room-card">
+                    <div class="room-img">
+                        <img src="./images/rm2.jpg">
+                    </div>
+                    <div class="room-info">
+                        <h3>Deluxe King Room</h3>
+                        <p class="price">₱5,000.00<span>night</span></p>
+                        <ul class="amenities-list">
+                            <li>King Bed</li>
+                            <li>Ocean View</li>
+                            <li>Free Wi-Fi</li>
+                        </ul>
+                        <a href="#" class="btn-outline">Book Details</a>
+                    </div>
+                </div>
+                <!--Room 2-->
+                <div class="room-card">
+                    <div class="room-img">
+                        <img src="./images/rm1.jpg">
+                    </div>
+                    <div class="room-info">
+                        <h3>Ocean View Suite</h3>
+                        <p class="price">₱7,000.00<span>night</span></p>
+                        <ul class="amenities-list">
+                            <li>Queen Bed</li>
+                            <li>Balcony</li>
+                            <li>Breakfast Included</li>
+                        </ul>
+                        <a href="#" class="btn-outline">Book Details</a>
+                    </div>
+                </div>
+                <!--Room 3-->
+                <div class="room-card">
+                    <div class="room-img">
+                        <img src="./images/rm3.jpg">
+                    </div>
+                    <div class="room-info">
+                        <h3>Presendential Penthouse</h3>
+                        <p class="price">₱10,000.00<span>night</span></p>
+                        <ul class="amenities-list">
+                            <li>Private Pool</li>
+                            <li>Butler Service</li>
+                            <li>Paranomic View</li>
+                        </ul>
+                        <a href="#" class="btn-outline">Book Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="dining" class="dining section-padding">
+    <div class="container">
+        <div class="section-header">
+            <h2>Dining</h2>
+            <p>Fresh flavors, served by the sea.</p>
+        </div>
+
+        <div class="room-grid">
+            <!-- Dish 1 -->
+            <div class="room-card">
+                <div class="room-img">
+                    <img src="./images/dine1.png" alt="Breakfast buffet">
+                </div>
+                <div class="room-info">
+                    <h3>Breakfast Buffet</h3>
+                    <p class="price">₱450.00<span>per person</span></p>
+                    <ul class="amenities-list">
+                        <li>6:00 - 10:00 AM</li>
+                        <li>Local Favorites</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Dish 2 -->
+            <div class="room-card">
+                <div class="room-img">
+                    <img src="./images/dine2.jpg" alt="Seafood platter">
+                </div>
+                <div class="room-info">
+                    <h3>Seafood Platter</h3>
+                    <p class="price">₱1,200.00<span>good for 2</span></p>
+                    <ul class="amenities-list">
+                        <li>Catch of the Day</li>
+                        <li>Grilled</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Dish 3 -->
+            <div class="room-card">
+                <div class="room-img">
+                    <img src="./images/dine3.png" alt="Sunset dinner">
+                </div>
+                <div class="room-info">
+                    <h3>Sunset Dinner</h3>
+                    <p class="price">₱1,800.00<span>per person</span></p>
+                    <ul class="amenities-list">
+                        <li>3-Course Meal</li>
+                        <li>Ocean View</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="dining-hours">
+            <div><strong>Breakfast</strong><span>6:00 - 10:00 AM</span></div>
+            <div><strong>Lunch</strong><span>11:00 AM - 2:00 PM</span></div>
+            <div><strong>Dinner</strong><span>5:30 - 9:30 PM</span></div>
+        </div>
+    </div>
+</section>
+    <footer id="contacts">
+        <div class="container footer-content">
+            <div class="footer-col">
+                <h3>TechNest Hotels & Resorts</h3>
+                <p>Tunga-tunga, Maasin City, <br> Southern Leyte</p>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <a href="#">reservation@gmail.com</a>
+                <a href="#">+63 123456789</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2026</p>
+            <img src="./images/logo.png" class="footmage">
+            <p> All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
